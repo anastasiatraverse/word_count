@@ -1,0 +1,4 @@
+file_in:data.txt
+file_out_alp:res_a.txt
+file_out_num:res_num.txt
+threads_num:1
