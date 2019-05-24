@@ -20,10 +20,10 @@ def run_prog(num):
 
     return min(score)
 
-def main(arr):
-    count = run_prog(5)
+def main(num):
+    count = run_prog(num)
     print("min": count)
 
 if __name__ == '__main__':
 	if len(sys.argv)>0:
-		main(str(sys.argv))
+		main(int(sys.argv[1]))
